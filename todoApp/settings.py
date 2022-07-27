@@ -28,8 +28,7 @@ SECRET_KEY = 'django-insecure-%b%#0r6+cu#g!7girc)3vp_%cwrrz*2u5$otc-=l-9+=%*#x4n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "python-api-student.herokuapp.com",
-                 "localhost", "192.168.52.148"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -126,14 +125,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 django_on_heroku.settings(locals())
-
-PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
