@@ -127,7 +127,6 @@ USE_TZ = True
 django_on_heroku.settings(locals())
 STATIC_URL = '/static/'
 
-
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Default primary key field type
