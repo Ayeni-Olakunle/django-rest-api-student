@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-%b%#0r6+cu#g!7girc)3vp_%cwrrz*2u5$otc-=l-9+=%*#x4n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0',
-                 "python-api-student.herokuapp.com",
-                 '127.0.0.1']
+ALLOWED_HOSTS = ["https://python-api-student.herokuapp.com"]
 
 
 # Application definition
