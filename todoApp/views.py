@@ -1,5 +1,5 @@
 from http import server
-from msilib.schema import ServiceInstall
+# from msilib.schema import ServiceInstall
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
